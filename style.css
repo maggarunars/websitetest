@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(71, 69, 69, 0.75),rgba(98, 95, 95, 0.75)),url(myndir/mynd.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar { 
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(236, 216, 192, 0.653);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: bisque;
+}
+.content h1 {
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.content p {
+    margin: 10px;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+.button {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(234, 223, 213);
+    padding: 8px 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
